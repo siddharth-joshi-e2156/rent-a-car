@@ -1,6 +1,7 @@
 import React, { Component } from 'react'
 import { withStyles } from '@material-ui/core/styles'
 import PropTypes from 'prop-types'
+import Search from '../Search'
 import './layout.css'
 
 const styles = {
@@ -56,7 +57,7 @@ class Layout extends Component {
     const classes = this.props.classes
     return (
       <section className='layout-wrapper'>
-
+        <Search />
       </section>
     )
   }
